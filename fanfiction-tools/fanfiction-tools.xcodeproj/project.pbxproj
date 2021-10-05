@@ -1,0 +1,990 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31C13B59270C7CAB00E4DCAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C13B58270C7CAB00E4DCAF /* AppDelegate.swift */; };
+		31C13B5B270C7CAB00E4DCAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C13B5A270C7CAB00E4DCAF /* SceneDelegate.swift */; };
+		31C13B5E270C7CAB00E4DCAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31C13B5C270C7CAB00E4DCAF /* LaunchScreen.storyboard */; };
+		31C13B61270C7CAB00E4DCAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31C13B5F270C7CAB00E4DCAF /* Main.storyboard */; };
+		31C13B6A270C7CAB00E4DCAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C13B69270C7CAB00E4DCAF /* AppDelegate.swift */; };
+		31C13B6D270C7CAB00E4DCAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31C13B6B270C7CAB00E4DCAF /* Main.storyboard */; };
+		31C13B75270C7CAB00E4DCAF /* fanfiction-tools Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 31C13B74270C7CAB00E4DCAF /* fanfiction-tools Extension.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		31C13B7F270C7CAB00E4DCAF /* fanfiction-tools Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 31C13B7E270C7CAB00E4DCAF /* fanfiction-tools Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		31C13B85270C7CAB00E4DCAF /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 31C13B48270C7CA800E4DCAF /* Main.html */; };
+		31C13B86270C7CAB00E4DCAF /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 31C13B48270C7CA800E4DCAF /* Main.html */; };
+		31C13B87270C7CAB00E4DCAF /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 31C13B4A270C7CA800E4DCAF /* Icon.png */; };
+		31C13B88270C7CAB00E4DCAF /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 31C13B4A270C7CA800E4DCAF /* Icon.png */; };
+		31C13B89270C7CAB00E4DCAF /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 31C13B4B270C7CA800E4DCAF /* Style.css */; };
+		31C13B8A270C7CAB00E4DCAF /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 31C13B4B270C7CA800E4DCAF /* Style.css */; };
+		31C13B8B270C7CAB00E4DCAF /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 31C13B4C270C7CA800E4DCAF /* Script.js */; };
+		31C13B8C270C7CAB00E4DCAF /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 31C13B4C270C7CA800E4DCAF /* Script.js */; };
+		31C13B8D270C7CAB00E4DCAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C13B4D270C7CA800E4DCAF /* ViewController.swift */; };
+		31C13B8E270C7CAB00E4DCAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C13B4D270C7CA800E4DCAF /* ViewController.swift */; };
+		31C13B8F270C7CAB00E4DCAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31C13B4E270C7CAB00E4DCAF /* Assets.xcassets */; };
+		31C13B90270C7CAB00E4DCAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31C13B4E270C7CAB00E4DCAF /* Assets.xcassets */; };
+		31C13B91270C7CAB00E4DCAF /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C13B50270C7CAB00E4DCAF /* SafariWebExtensionHandler.swift */; };
+		31C13B92270C7CAB00E4DCAF /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C13B50270C7CAB00E4DCAF /* SafariWebExtensionHandler.swift */; };
+		31C13BAE270C7CAC00E4DCAF /* jquery-3.3.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 31C13BA4270C7CAC00E4DCAF /* jquery-3.3.1.min.js */; };
+		31C13BAF270C7CAC00E4DCAF /* fanfiction-tools in Resources */ = {isa = PBXBuildFile; fileRef = 31C13BA5270C7CAC00E4DCAF /* fanfiction-tools */; };
+		31C13BB0270C7CAC00E4DCAF /* fanfiction.net.js in Resources */ = {isa = PBXBuildFile; fileRef = 31C13BA6270C7CAC00E4DCAF /* fanfiction.net.js */; };
+		31C13BB1270C7CAC00E4DCAF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 31C13BA7270C7CAC00E4DCAF /* README.md */; };
+		31C13BB2270C7CAC00E4DCAF /* jquery.minicolors.js in Resources */ = {isa = PBXBuildFile; fileRef = 31C13BA8270C7CAC00E4DCAF /* jquery.minicolors.js */; };
+		31C13BB3270C7CAC00E4DCAF /* jquery.minicolors.css in Resources */ = {isa = PBXBuildFile; fileRef = 31C13BA9270C7CAC00E4DCAF /* jquery.minicolors.css */; };
+		31C13BB4270C7CAC00E4DCAF /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C13BAA270C7CAC00E4DCAF /* manifest.json */; };
+		31C13BB5270C7CAC00E4DCAF /* utils.js in Resources */ = {isa = PBXBuildFile; fileRef = 31C13BAB270C7CAC00E4DCAF /* utils.js */; };
+		31C13BB6270C7CAC00E4DCAF /* jquery.lazyload.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 31C13BAC270C7CAC00E4DCAF /* jquery.lazyload.min.js */; };
+		31C13BB7270C7CAC00E4DCAF /* jquery.minicolors.png in Resources */ = {isa = PBXBuildFile; fileRef = 31C13BAD270C7CAC00E4DCAF /* jquery.minicolors.png */; };
+		31C13BB8270C7CAC00E4DCAF /* jquery-3.3.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 31C13BA4270C7CAC00E4DCAF /* jquery-3.3.1.min.js */; };
+		31C13BB9270C7CAC00E4DCAF /* fanfiction-tools in Resources */ = {isa = PBXBuildFile; fileRef = 31C13BA5270C7CAC00E4DCAF /* fanfiction-tools */; };
+		31C13BBA270C7CAC00E4DCAF /* fanfiction.net.js in Resources */ = {isa = PBXBuildFile; fileRef = 31C13BA6270C7CAC00E4DCAF /* fanfiction.net.js */; };
+		31C13BBB270C7CAC00E4DCAF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 31C13BA7270C7CAC00E4DCAF /* README.md */; };
+		31C13BBC270C7CAC00E4DCAF /* jquery.minicolors.js in Resources */ = {isa = PBXBuildFile; fileRef = 31C13BA8270C7CAC00E4DCAF /* jquery.minicolors.js */; };
+		31C13BBD270C7CAC00E4DCAF /* jquery.minicolors.css in Resources */ = {isa = PBXBuildFile; fileRef = 31C13BA9270C7CAC00E4DCAF /* jquery.minicolors.css */; };
+		31C13BBE270C7CAC00E4DCAF /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 31C13BAA270C7CAC00E4DCAF /* manifest.json */; };
+		31C13BBF270C7CAC00E4DCAF /* utils.js in Resources */ = {isa = PBXBuildFile; fileRef = 31C13BAB270C7CAC00E4DCAF /* utils.js */; };
+		31C13BC0270C7CAC00E4DCAF /* jquery.lazyload.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 31C13BAC270C7CAC00E4DCAF /* jquery.lazyload.min.js */; };
+		31C13BC1270C7CAC00E4DCAF /* jquery.minicolors.png in Resources */ = {isa = PBXBuildFile; fileRef = 31C13BAD270C7CAC00E4DCAF /* jquery.minicolors.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31C13B76270C7CAB00E4DCAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31C13B42270C7CA800E4DCAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31C13B73270C7CAB00E4DCAF;
+			remoteInfo = "fanfiction-tools Extension (iOS)";
+		};
+		31C13B80270C7CAB00E4DCAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31C13B42270C7CA800E4DCAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31C13B7D270C7CAB00E4DCAF;
+			remoteInfo = "fanfiction-tools Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		31C13B98270C7CAB00E4DCAF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				31C13B75270C7CAB00E4DCAF /* fanfiction-tools Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31C13B9F270C7CAB00E4DCAF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				31C13B7F270C7CAB00E4DCAF /* fanfiction-tools Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		31C13B49270C7CA800E4DCAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		31C13B4A270C7CA800E4DCAF /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		31C13B4B270C7CA800E4DCAF /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		31C13B4C270C7CA800E4DCAF /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		31C13B4D270C7CA800E4DCAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		31C13B4E270C7CAB00E4DCAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31C13B50270C7CAB00E4DCAF /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		31C13B55270C7CAB00E4DCAF /* fanfiction-tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fanfiction-tools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31C13B58270C7CAB00E4DCAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		31C13B5A270C7CAB00E4DCAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		31C13B5D270C7CAB00E4DCAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31C13B60270C7CAB00E4DCAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31C13B62270C7CAB00E4DCAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31C13B67270C7CAB00E4DCAF /* fanfiction-tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fanfiction-tools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31C13B69270C7CAB00E4DCAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		31C13B6C270C7CAB00E4DCAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31C13B6E270C7CAB00E4DCAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31C13B6F270C7CAB00E4DCAF /* fanfiction-tools.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "fanfiction-tools.entitlements"; sourceTree = "<group>"; };
+		31C13B74270C7CAB00E4DCAF /* fanfiction-tools Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "fanfiction-tools Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31C13B79270C7CAB00E4DCAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31C13B7E270C7CAB00E4DCAF /* fanfiction-tools Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "fanfiction-tools Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31C13B83270C7CAB00E4DCAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31C13B84270C7CAB00E4DCAF /* fanfiction-tools.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "fanfiction-tools.entitlements"; sourceTree = "<group>"; };
+		31C13BA4270C7CAC00E4DCAF /* jquery-3.3.1.min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "jquery-3.3.1.min.js"; path = "../../jquery-3.3.1.min.js"; sourceTree = "<group>"; };
+		31C13BA5270C7CAC00E4DCAF /* fanfiction-tools */ = {isa = PBXFileReference; lastKnownFileType = text; path = "fanfiction-tools"; sourceTree = SOURCE_ROOT; };
+		31C13BA6270C7CAC00E4DCAF /* fanfiction.net.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = fanfiction.net.js; path = ../../fanfiction.net.js; sourceTree = "<group>"; };
+		31C13BA7270C7CAC00E4DCAF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
+		31C13BA8270C7CAC00E4DCAF /* jquery.minicolors.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = jquery.minicolors.js; path = ../../jquery.minicolors.js; sourceTree = "<group>"; };
+		31C13BA9270C7CAC00E4DCAF /* jquery.minicolors.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = jquery.minicolors.css; path = ../../jquery.minicolors.css; sourceTree = "<group>"; };
+		31C13BAA270C7CAC00E4DCAF /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../manifest.json; sourceTree = "<group>"; };
+		31C13BAB270C7CAC00E4DCAF /* utils.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = utils.js; path = ../../utils.js; sourceTree = "<group>"; };
+		31C13BAC270C7CAC00E4DCAF /* jquery.lazyload.min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = jquery.lazyload.min.js; path = ../../jquery.lazyload.min.js; sourceTree = "<group>"; };
+		31C13BAD270C7CAC00E4DCAF /* jquery.minicolors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = jquery.minicolors.png; path = ../../jquery.minicolors.png; sourceTree = "<group>"; };
+		31DA782A270C7DC400350E10 /* fanfiction-tools (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "fanfiction-tools (iOS).entitlements"; sourceTree = "<group>"; };
+		31DA782B270C7DC400350E10 /* fanfiction-tools Extension (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "fanfiction-tools Extension (iOS).entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31C13B52270C7CAB00E4DCAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31C13B64270C7CAB00E4DCAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31C13B71270C7CAB00E4DCAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31C13B7B270C7CAB00E4DCAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31C13B41270C7CA800E4DCAF = {
+			isa = PBXGroup;
+			children = (
+				31DA782B270C7DC400350E10 /* fanfiction-tools Extension (iOS).entitlements */,
+				31DA782A270C7DC400350E10 /* fanfiction-tools (iOS).entitlements */,
+				31C13B46270C7CA800E4DCAF /* Shared (App) */,
+				31C13B4F270C7CAB00E4DCAF /* Shared (Extension) */,
+				31C13B57270C7CAB00E4DCAF /* iOS (App) */,
+				31C13B68270C7CAB00E4DCAF /* macOS (App) */,
+				31C13B78270C7CAB00E4DCAF /* iOS (Extension) */,
+				31C13B82270C7CAB00E4DCAF /* macOS (Extension) */,
+				31C13B56270C7CAB00E4DCAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31C13B46270C7CA800E4DCAF /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				31C13B4D270C7CA800E4DCAF /* ViewController.swift */,
+				31C13B4E270C7CAB00E4DCAF /* Assets.xcassets */,
+				31C13B47270C7CA800E4DCAF /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		31C13B47270C7CA800E4DCAF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				31C13B48270C7CA800E4DCAF /* Main.html */,
+				31C13B4A270C7CA800E4DCAF /* Icon.png */,
+				31C13B4B270C7CA800E4DCAF /* Style.css */,
+				31C13B4C270C7CA800E4DCAF /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		31C13B4F270C7CAB00E4DCAF /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				31C13BA3270C7CAC00E4DCAF /* Resources */,
+				31C13B50270C7CAB00E4DCAF /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		31C13B56270C7CAB00E4DCAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31C13B55270C7CAB00E4DCAF /* fanfiction-tools.app */,
+				31C13B67270C7CAB00E4DCAF /* fanfiction-tools.app */,
+				31C13B74270C7CAB00E4DCAF /* fanfiction-tools Extension.appex */,
+				31C13B7E270C7CAB00E4DCAF /* fanfiction-tools Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31C13B57270C7CAB00E4DCAF /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				31C13B58270C7CAB00E4DCAF /* AppDelegate.swift */,
+				31C13B5A270C7CAB00E4DCAF /* SceneDelegate.swift */,
+				31C13B5C270C7CAB00E4DCAF /* LaunchScreen.storyboard */,
+				31C13B5F270C7CAB00E4DCAF /* Main.storyboard */,
+				31C13B62270C7CAB00E4DCAF /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		31C13B68270C7CAB00E4DCAF /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				31C13B69270C7CAB00E4DCAF /* AppDelegate.swift */,
+				31C13B6B270C7CAB00E4DCAF /* Main.storyboard */,
+				31C13B6E270C7CAB00E4DCAF /* Info.plist */,
+				31C13B6F270C7CAB00E4DCAF /* fanfiction-tools.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		31C13B78270C7CAB00E4DCAF /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				31C13B79270C7CAB00E4DCAF /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		31C13B82270C7CAB00E4DCAF /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				31C13B83270C7CAB00E4DCAF /* Info.plist */,
+				31C13B84270C7CAB00E4DCAF /* fanfiction-tools.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		31C13BA3270C7CAC00E4DCAF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				31C13BA4270C7CAC00E4DCAF /* jquery-3.3.1.min.js */,
+				31C13BA5270C7CAC00E4DCAF /* fanfiction-tools */,
+				31C13BA6270C7CAC00E4DCAF /* fanfiction.net.js */,
+				31C13BA7270C7CAC00E4DCAF /* README.md */,
+				31C13BA8270C7CAC00E4DCAF /* jquery.minicolors.js */,
+				31C13BA9270C7CAC00E4DCAF /* jquery.minicolors.css */,
+				31C13BAA270C7CAC00E4DCAF /* manifest.json */,
+				31C13BAB270C7CAC00E4DCAF /* utils.js */,
+				31C13BAC270C7CAC00E4DCAF /* jquery.lazyload.min.js */,
+				31C13BAD270C7CAC00E4DCAF /* jquery.minicolors.png */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31C13B54270C7CAB00E4DCAF /* fanfiction-tools (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31C13B99270C7CAB00E4DCAF /* Build configuration list for PBXNativeTarget "fanfiction-tools (iOS)" */;
+			buildPhases = (
+				31C13B51270C7CAB00E4DCAF /* Sources */,
+				31C13B52270C7CAB00E4DCAF /* Frameworks */,
+				31C13B53270C7CAB00E4DCAF /* Resources */,
+				31C13B98270C7CAB00E4DCAF /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31C13B77270C7CAB00E4DCAF /* PBXTargetDependency */,
+			);
+			name = "fanfiction-tools (iOS)";
+			productName = "fanfiction-tools (iOS)";
+			productReference = 31C13B55270C7CAB00E4DCAF /* fanfiction-tools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31C13B66270C7CAB00E4DCAF /* fanfiction-tools (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31C13BA0270C7CAB00E4DCAF /* Build configuration list for PBXNativeTarget "fanfiction-tools (macOS)" */;
+			buildPhases = (
+				31C13B63270C7CAB00E4DCAF /* Sources */,
+				31C13B64270C7CAB00E4DCAF /* Frameworks */,
+				31C13B65270C7CAB00E4DCAF /* Resources */,
+				31C13B9F270C7CAB00E4DCAF /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31C13B81270C7CAB00E4DCAF /* PBXTargetDependency */,
+			);
+			name = "fanfiction-tools (macOS)";
+			productName = "fanfiction-tools (macOS)";
+			productReference = 31C13B67270C7CAB00E4DCAF /* fanfiction-tools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31C13B73270C7CAB00E4DCAF /* fanfiction-tools Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31C13B95270C7CAB00E4DCAF /* Build configuration list for PBXNativeTarget "fanfiction-tools Extension (iOS)" */;
+			buildPhases = (
+				31C13B70270C7CAB00E4DCAF /* Sources */,
+				31C13B71270C7CAB00E4DCAF /* Frameworks */,
+				31C13B72270C7CAB00E4DCAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fanfiction-tools Extension (iOS)";
+			productName = "fanfiction-tools Extension (iOS)";
+			productReference = 31C13B74270C7CAB00E4DCAF /* fanfiction-tools Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		31C13B7D270C7CAB00E4DCAF /* fanfiction-tools Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31C13B9C270C7CAB00E4DCAF /* Build configuration list for PBXNativeTarget "fanfiction-tools Extension (macOS)" */;
+			buildPhases = (
+				31C13B7A270C7CAB00E4DCAF /* Sources */,
+				31C13B7B270C7CAB00E4DCAF /* Frameworks */,
+				31C13B7C270C7CAB00E4DCAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fanfiction-tools Extension (macOS)";
+			productName = "fanfiction-tools Extension (macOS)";
+			productReference = 31C13B7E270C7CAB00E4DCAF /* fanfiction-tools Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31C13B42270C7CA800E4DCAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					31C13B54270C7CAB00E4DCAF = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					31C13B66270C7CAB00E4DCAF = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					31C13B73270C7CAB00E4DCAF = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					31C13B7D270C7CAB00E4DCAF = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 31C13B45270C7CA800E4DCAF /* Build configuration list for PBXProject "fanfiction-tools" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31C13B41270C7CA800E4DCAF;
+			productRefGroup = 31C13B56270C7CAB00E4DCAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31C13B54270C7CAB00E4DCAF /* fanfiction-tools (iOS) */,
+				31C13B66270C7CAB00E4DCAF /* fanfiction-tools (macOS) */,
+				31C13B73270C7CAB00E4DCAF /* fanfiction-tools Extension (iOS) */,
+				31C13B7D270C7CAB00E4DCAF /* fanfiction-tools Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31C13B53270C7CAB00E4DCAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C13B87270C7CAB00E4DCAF /* Icon.png in Resources */,
+				31C13B5E270C7CAB00E4DCAF /* LaunchScreen.storyboard in Resources */,
+				31C13B85270C7CAB00E4DCAF /* Main.html in Resources */,
+				31C13B8B270C7CAB00E4DCAF /* Script.js in Resources */,
+				31C13B8F270C7CAB00E4DCAF /* Assets.xcassets in Resources */,
+				31C13B61270C7CAB00E4DCAF /* Main.storyboard in Resources */,
+				31C13B89270C7CAB00E4DCAF /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31C13B65270C7CAB00E4DCAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C13B88270C7CAB00E4DCAF /* Icon.png in Resources */,
+				31C13B8A270C7CAB00E4DCAF /* Style.css in Resources */,
+				31C13B6D270C7CAB00E4DCAF /* Main.storyboard in Resources */,
+				31C13B8C270C7CAB00E4DCAF /* Script.js in Resources */,
+				31C13B90270C7CAB00E4DCAF /* Assets.xcassets in Resources */,
+				31C13B86270C7CAB00E4DCAF /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31C13B72270C7CAB00E4DCAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C13BB8270C7CAC00E4DCAF /* jquery-3.3.1.min.js in Resources */,
+				31C13BBE270C7CAC00E4DCAF /* manifest.json in Resources */,
+				31C13BBD270C7CAC00E4DCAF /* jquery.minicolors.css in Resources */,
+				31C13BBC270C7CAC00E4DCAF /* jquery.minicolors.js in Resources */,
+				31C13BC0270C7CAC00E4DCAF /* jquery.lazyload.min.js in Resources */,
+				31C13BBF270C7CAC00E4DCAF /* utils.js in Resources */,
+				31C13BB9270C7CAC00E4DCAF /* fanfiction-tools in Resources */,
+				31C13BBB270C7CAC00E4DCAF /* README.md in Resources */,
+				31C13BBA270C7CAC00E4DCAF /* fanfiction.net.js in Resources */,
+				31C13BC1270C7CAC00E4DCAF /* jquery.minicolors.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31C13B7C270C7CAB00E4DCAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C13BAE270C7CAC00E4DCAF /* jquery-3.3.1.min.js in Resources */,
+				31C13BB4270C7CAC00E4DCAF /* manifest.json in Resources */,
+				31C13BB3270C7CAC00E4DCAF /* jquery.minicolors.css in Resources */,
+				31C13BB2270C7CAC00E4DCAF /* jquery.minicolors.js in Resources */,
+				31C13BB6270C7CAC00E4DCAF /* jquery.lazyload.min.js in Resources */,
+				31C13BB5270C7CAC00E4DCAF /* utils.js in Resources */,
+				31C13BAF270C7CAC00E4DCAF /* fanfiction-tools in Resources */,
+				31C13BB1270C7CAC00E4DCAF /* README.md in Resources */,
+				31C13BB0270C7CAC00E4DCAF /* fanfiction.net.js in Resources */,
+				31C13BB7270C7CAC00E4DCAF /* jquery.minicolors.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31C13B51270C7CAB00E4DCAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C13B8D270C7CAB00E4DCAF /* ViewController.swift in Sources */,
+				31C13B59270C7CAB00E4DCAF /* AppDelegate.swift in Sources */,
+				31C13B5B270C7CAB00E4DCAF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31C13B63270C7CAB00E4DCAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C13B8E270C7CAB00E4DCAF /* ViewController.swift in Sources */,
+				31C13B6A270C7CAB00E4DCAF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31C13B70270C7CAB00E4DCAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C13B91270C7CAB00E4DCAF /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31C13B7A270C7CAB00E4DCAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C13B92270C7CAB00E4DCAF /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31C13B77270C7CAB00E4DCAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			platformFilter = ios;
+			target = 31C13B73270C7CAB00E4DCAF /* fanfiction-tools Extension (iOS) */;
+			targetProxy = 31C13B76270C7CAB00E4DCAF /* PBXContainerItemProxy */;
+		};
+		31C13B81270C7CAB00E4DCAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31C13B7D270C7CAB00E4DCAF /* fanfiction-tools Extension (macOS) */;
+			targetProxy = 31C13B80270C7CAB00E4DCAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		31C13B48270C7CA800E4DCAF /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31C13B49270C7CA800E4DCAF /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		31C13B5C270C7CAB00E4DCAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31C13B5D270C7CAB00E4DCAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		31C13B5F270C7CAB00E4DCAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31C13B60270C7CAB00E4DCAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		31C13B6B270C7CAB00E4DCAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31C13B6C270C7CAB00E4DCAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31C13B93270C7CAB00E4DCAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		31C13B94270C7CAB00E4DCAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		31C13B96270C7CAB00E4DCAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "fanfiction-tools Extension (iOS).entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "fanfiction-tools Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.fanfiction-tools.Extension";
+				PRODUCT_NAME = "fanfiction-tools Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31C13B97270C7CAB00E4DCAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "fanfiction-tools Extension (iOS).entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "fanfiction-tools Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.fanfiction-tools.Extension";
+				PRODUCT_NAME = "fanfiction-tools Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31C13B9A270C7CAB00E4DCAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "fanfiction-tools (iOS).entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "fanfiction-tools";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.fanfiction-tools";
+				PRODUCT_NAME = "fanfiction-tools";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31C13B9B270C7CAB00E4DCAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "fanfiction-tools (iOS).entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "fanfiction-tools";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.fanfiction-tools";
+				PRODUCT_NAME = "fanfiction-tools";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31C13B9D270C7CAB00E4DCAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/fanfiction-tools.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "fanfiction-tools Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.fanfiction-tools.Extension";
+				PRODUCT_NAME = "fanfiction-tools Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		31C13B9E270C7CAB00E4DCAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/fanfiction-tools.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "fanfiction-tools Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.fanfiction-tools.Extension";
+				PRODUCT_NAME = "fanfiction-tools Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		31C13BA1270C7CAB00E4DCAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/fanfiction-tools.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "fanfiction-tools";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.fanfiction-tools";
+				PRODUCT_NAME = "fanfiction-tools";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		31C13BA2270C7CAB00E4DCAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/fanfiction-tools.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "fanfiction-tools";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.fanfiction-tools";
+				PRODUCT_NAME = "fanfiction-tools";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31C13B45270C7CA800E4DCAF /* Build configuration list for PBXProject "fanfiction-tools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31C13B93270C7CAB00E4DCAF /* Debug */,
+				31C13B94270C7CAB00E4DCAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31C13B95270C7CAB00E4DCAF /* Build configuration list for PBXNativeTarget "fanfiction-tools Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31C13B96270C7CAB00E4DCAF /* Debug */,
+				31C13B97270C7CAB00E4DCAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31C13B99270C7CAB00E4DCAF /* Build configuration list for PBXNativeTarget "fanfiction-tools (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31C13B9A270C7CAB00E4DCAF /* Debug */,
+				31C13B9B270C7CAB00E4DCAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31C13B9C270C7CAB00E4DCAF /* Build configuration list for PBXNativeTarget "fanfiction-tools Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31C13B9D270C7CAB00E4DCAF /* Debug */,
+				31C13B9E270C7CAB00E4DCAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31C13BA0270C7CAB00E4DCAF /* Build configuration list for PBXNativeTarget "fanfiction-tools (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31C13BA1270C7CAB00E4DCAF /* Debug */,
+				31C13BA2270C7CAB00E4DCAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31C13B42270C7CA800E4DCAF /* Project object */;
+}
