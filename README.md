@@ -1,7 +1,7 @@
 # FanFiction-Tools
 This is a port of the greasemonkey script from https://greasyfork.org/en/forum/discussion/789/modified-1-7-2 into a firefox extension which does not requre greasemonkey
 
-To intall please go to https://addons.mozilla.org/en-US/firefox/addon/fanfiction-tools/
+To intall please go to //
 
 v1.1
 Updated to use web extensions
@@ -24,3 +24,7 @@ Updated behaviour when auto load full story is true and the chapter drop down li
 Added Support for FictionPress Site
 Added support when using fanfic filter
 Updated jQuery
+
+
+v1.4.1 - 05 October 2021
+Updated to support Safari Web Extensions.
